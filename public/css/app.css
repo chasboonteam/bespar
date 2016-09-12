@@ -1,0 +1,78 @@
+html, body {
+    font-family: BYekan;
+    font-weight: 100;
+    font-size:14px;
+    line-height:1.7;
+    background-color: #f5f8fa;
+}
+h1, h2, h3, h4{
+    font-family: BYekan,sans-serif;
+}
+b, strong{
+    font-weight:300;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('BYekan.eot');
+    src: local('*'), url('BYekan.woff')format('woff'), url('BYekan.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+.boxsmall{
+    padding:100px 20px 20px 20px;
+    margin:20px 20px 20px 20px;
+    color:#fff;
+}
+.boxnormal{
+    padding:100px 20px 20px 20px;
+    margin:20px 20px 20px 20px;
+    color:#fff;
+}
+.boxlarge{
+    padding:100px 20px 20px 20px;
+    margin:20px 20px 20px 20px;
+    color:#fff;
+}
+.textrang{
+    color:#e9e6df ;
+    font-weight:100;
+}
+.tpad{
+    padding-top:30px;
+}
+
+.ftr{
+
+    background-color: #3d3a3c;
+    padding: 20px 20px 20px 20px;
+}
+.ftr address, .ftr a, .ftr p{
+    color:#fff;
+}
+.ft_space{
+    padding:0 10px 0 10px;
+}
+
+.headercolor{
+    background-color:#2A88BD;
+    box-shadow: 0px 0px 20px #7a7a7a;
+   }
+
+.buttonhover:hover{
+    color: #fdfffb;
+    background-color:#2A88BD;
+}
+#cboxshadow{
+    box-shadow: 0px 0px 10px #A6A6A6;
+}
+#cboxshadow:hover{
+    transition:all 0.1s ease 0.1s;
+    box-shadow: 0px 0px 10px #f5f8fa;
+}
+
